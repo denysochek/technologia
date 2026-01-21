@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Comfortaa:wght@400;500;600;700&family=Montserrat:wght@800;900&display=swap');
 
 :root {
   --bg-dark: #12140e;
@@ -11,7 +11,8 @@
   --accent: #bcbd8b;
   --glass: rgba(128, 128, 0, 0.05);
   --glass-border: rgba(128, 128, 0, 0.15);
-  --font-heading: 'Outfit', sans-serif;
+  --font-logo: 'Montserrat', sans-serif;
+  --font-heading: 'Comfortaa', cursive;
   --font-body: 'Inter', sans-serif;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -33,12 +34,19 @@ body {
 
 h1,
 h2,
-h3,
 h4,
-.heading {
+.heading-soft {
   font-family: var(--font-heading);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
+}
+
+h3,
+.brand-font {
+  font-family: var(--font-logo);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 a {

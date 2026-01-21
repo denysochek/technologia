@@ -18,8 +18,8 @@ const Navbar = () => {
             alignItems: 'center'
         }}>
             <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <img src="/znanyy.svg" alt="ZNANYY Logo" style={{ height: '32px' }} />
-                <span className="heading" style={{ fontSize: '1.5rem', fontWeight: 800 }}>ZNANYY</span>
+                <img src="/znanyy.svg" alt="ZNANYY Logo" style={{ height: '48px' }} />
+                <span className="brand-font" style={{ fontSize: '1.5rem', fontWeight: 800 }}>ZNANYY</span>
             </Link>
 
             <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
