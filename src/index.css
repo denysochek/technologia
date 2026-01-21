@@ -15,6 +15,19 @@
   --font-heading: 'Comfortaa', cursive;
   --font-body: 'Inter', sans-serif;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --fs-h1: 4.5rem;
+  --fs-h2: 3rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-h1: 2.5rem;
+    --fs-h2: 1.8rem;
+    --fs-h3: 1.2rem;
+    --fs-body: 1rem;
+  }
 }
 
 * {
@@ -61,6 +74,7 @@ button {
   outline: none;
   background: none;
   font-family: inherit;
+  color: var(--text-main);
 }
 
 /* Utilities */
@@ -100,6 +114,21 @@ button {
   box-shadow: 0 8px 30px var(--primary-glow);
 }
 
+.btn-secondary {
+  background: var(--glass);
+  color: var(--text-main);
+  border: 1px solid var(--glass-border);
+  padding: 0.8rem 1.8rem;
+  border-radius: 100px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-secondary:hover {
+  background: var(--glass-border);
+  transform: translateY(-2px);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -114,4 +143,69 @@ button {
 
 .animate-fade-in {
   animation: fadeIn 0.8s ease forwards;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+
+  .nav-desktop .nav-links,
+  .nav-desktop .nav-actions,
+  .nav-desktop .login-btn,
+  .nav-desktop .nav-settings {
+    display: none !important;
+  }
+
+  .nav-desktop .mobile-menu-btn {
+    display: block !important;
+    z-index: 2001;
+    /* Ensure button is above menu */
+  }
+
+  .mobile-menu {
+    display: flex !important;
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    transform: translateY(-100%) !important;
+    border-radius: 0 !important;
+    border: none !important;
+    flex-direction: column;
+    padding: 100px 1.5rem 2rem !important;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 2000 !important;
+    background: var(--bg-dark) !important;
+    overflow-y: auto;
+  }
+
+  .mobile-menu.open {
+    transform: translateY(0) !important;
+  }
+
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .hero-section {
+    padding: 40px 0 !important;
+  }
+
+  .hero-title br {
+    display: none;
+  }
+
+  .products-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .buy-text,
+  .filter-text {
+    display: none;
+  }
 }
