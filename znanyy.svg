@@ -1,14 +1,14 @@
 <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1090_13)">
 <rect x="1.625" y="1.625" width="64" height="64" rx="16" fill="url(#paint0_linear_1090_13)"/>
-<g style="mix-blend-mode:soft-light" filter="url(#filter1_d_1090_13)">
-<path d="M9.625 29.6875C9.625 27.4438 11.4438 25.625 13.6875 25.625H21.5625C23.8062 25.625 25.625 27.4438 25.625 29.6875V33.625H9.625V29.6875Z" fill="white"/>
+<g filter="url(#filter1_d_1090_13)">
+<path d="M9.625 29.6875C9.625 27.4438 11.4438 25.625 13.6875 25.625H21.5625C23.8062 25.625 25.625 27.4438 25.625 29.6875V33.625H9.625V29.6875Z" fill="white" fill-opacity="0.8" shape-rendering="crispEdges"/>
 </g>
-<g style="mix-blend-mode:soft-light" filter="url(#filter2_d_1090_13)">
-<path d="M41.625 29.6875C41.625 27.4438 43.4438 25.625 45.6875 25.625H53.5625C55.8062 25.625 57.625 27.4438 57.625 29.6875V33.625H41.625V29.6875Z" fill="white"/>
+<g filter="url(#filter2_d_1090_13)">
+<path d="M41.625 29.6875C41.625 27.4438 43.4438 25.625 45.6875 25.625H53.5625C55.8062 25.625 57.625 27.4438 57.625 29.6875V33.625H41.625V29.6875Z" fill="white" fill-opacity="0.8" shape-rendering="crispEdges"/>
 </g>
-<g style="mix-blend-mode:soft-light" filter="url(#filter3_d_1090_13)">
-<path d="M25.625 33.625H41.625V37.6875C41.625 39.8621 39.8621 41.625 37.6875 41.625H29.5625C27.3879 41.625 25.625 39.8621 25.625 37.6875V33.625Z" fill="white"/>
+<g filter="url(#filter3_d_1090_13)">
+<path d="M25.625 33.625H41.625V37.6875C41.625 39.8621 39.8621 41.625 37.6875 41.625H29.5625C27.3879 41.625 25.625 39.8621 25.625 37.6875V33.625Z" fill="white" fill-opacity="0.8" shape-rendering="crispEdges"/>
 </g>
 </g>
 <defs>
