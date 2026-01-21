@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Cpu, ShoppingCart, User, Menu } from 'lucide-react';
+import logo from '../assets/znanyy.svg';
 
 const Navbar = () => {
     return (
@@ -18,7 +19,7 @@ const Navbar = () => {
             alignItems: 'center'
         }}>
             <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <img src="/znanyy.svg" alt="ZNANYY Logo" style={{ height: '48px' }} />
+                <img src={logo} alt="ZNANYY Logo" style={{ height: '48px' }} />
                 <span className="brand-font" style={{ fontSize: '1.5rem', fontWeight: 800 }}>ZNANYY</span>
             </Link>
 
